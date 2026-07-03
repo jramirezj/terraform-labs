@@ -37,7 +37,7 @@ resource "aws_s3_object" "demo_file" {
   source      = "../../assets/demo_s3.png"
   content_type = "image/jpeg"
 
-  acl = "public-read"
+  //acl = "public-read"
 }
 
 output "bucket_url" {
