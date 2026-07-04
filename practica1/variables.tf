@@ -1,11 +1,17 @@
-variable "key_name_1" {
+variable "input_1_key_name" {
     type = string
     description = "Nombre del archivo pem que guardará la clave SSH privada"
     
 }
 
-variable "key_name_2" {
+variable "input_2_bucket_name" {
     type = string
-    description = "Nombre del archivo pem que guardará la clave SSH privada"
+    description = "Nombre del  bucket S3"
     
+}
+
+
+variable "input_3_student_name" {
+  type = string
+  description = "Nombre del estudiante"
 }
