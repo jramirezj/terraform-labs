@@ -1,0 +1,15 @@
+{
+    "BucketArn": "arn:aws:s3:::terralabs-yorch-bucket-private",
+    "BucketRegion": "us-east-1",
+    "AccessPointAlias": false
+}
+{
+    "PublicAccessBlockConfiguration": {
+        "BlockPublicAcls": true,
+        "IgnorePublicAcls": true,
+        "BlockPublicPolicy": true,
+        "RestrictPublicBuckets": true
+    }
+}
+
+2026-07-08 23:51:03       3243 yorch-key.pem

@@ -1,0 +1,166 @@
+{
+    "Reservations": [
+        {
+            "ReservationId": "r-098c1af3116f5cb74",
+            "OwnerId": "367816904393",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2026-07-08T23:34:48+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-051c56737681c4a95",
+                                "EbsCardIndex": 0
+                            }
+                        }
+                    ],
+                    "ClientToken": "terraform-20260708233447260600000001",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "",
+                                "PublicIp": "3.133.149.40"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2026-07-08T23:34:48+00:00",
+                                "AttachmentId": "eni-attach-062b0d66dec25e0c9",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-0dd10b91d3427b19b",
+                                    "GroupName": "default"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:95:24:0a:fb:cd",
+                            "NetworkInterfaceId": "eni-002238fd2855f2540",
+                            "OwnerId": "367816904393",
+                            "PrivateIpAddress": "10.0.0.14",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "",
+                                        "PublicIp": "3.133.149.40"
+                                    },
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.0.0.14"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0d3f77cf95d07c78f",
+                            "VpcId": "vpc-0f5aa133121e82189",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-0dd10b91d3427b19b",
+                            "GroupName": "default"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "owner",
+                            "Value": "jorge_ramirez"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "prod-vm"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2026-07-08T23:34:48+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false,
+                        "HiddenByDefault": false
+                    },
+                    "SecondaryInterfaces": [],
+                    "InstanceId": "i-055fee77ea7149790",
+                    "ImageId": "ami-0b614a5d911900a9b",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-0-0-14.us-east-2.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3a.micro",
+                    "LaunchTime": "2026-07-08T23:34:48+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "use2-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "us-east-2a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-0d3f77cf95d07c78f",
+                    "VpcId": "vpc-0f5aa133121e82189",
+                    "PrivateIpAddress": "10.0.0.14",
+                    "PublicIpAddress": "3.133.149.40"
+                }
+            ]
+        }
+    ]
+}
